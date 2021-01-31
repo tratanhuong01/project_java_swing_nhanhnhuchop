@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1330, 820]"/>
+    </Property>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1330, 820]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,52,0,0,5,50"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/img/right.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="990" y="50" width="340" height="731"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/img/left.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="50" width="290" height="731"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="290" y="40" width="730" height="610"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="txtHuongDan">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[600, 600]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[600, 600]"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="textDemo">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Xin ch&#xe0;o c&#xe1;c b&#x1ea1;n &#x111;&#xe3; &#x111;&#x1ebf;n v&#x1edb;i tr&#xf2; ch&#x1a1;i Nhanh Nh&#x1b0; Ch&#x1edb;p. &#x110;&#x1ebf;n v&#x1edb;i tr&#xf2; ch&#x1a1;i c&#xe1;c b&#x1ea1;n c&#xf3; th&#x1ec3; c&#xf3; nhi&#x1ec1;u tr&#xe3;i nghi&#x1ec7;m th&#xfa; v&#x1ecb; h&#xe3;y &#x111;&#x1ebf;n v&#x1edb;i Nhanh Nh&#x1b0; Ch&#x1edb;p &#x111;&#x1ec3; ch&#x1a1;i gi&#x1ea3;i tr&#xed; v&#xe0; nh&#x1ead;n nh&#x1eef;ng ti&#x1ec1;n &#x1ea3;o &#x111;&#x1ec3; x&#x1ea3; stress . Nhanh Nh&#x1b0; Ch&#x1edb;p g&#x1ed3;m c&#xf3; c&#xe1;c lu&#x1ead;t l&#x1ec7; v&#xe0; c&#xe1;ch th&#x1ee9;c ch&#x1a1;i nh&#x1b0; sau :&#xa;- Th&#x1ee9; 1 :  Ti&#x1ec1;n tr&#xea;n ch&#x1ec9; l&#xe0; ti&#x1ec1;n &#x1ea3;o v&#xe0; kh&#xf4;ng c&#xf3; th&#x1ec3; quy &#x111;&#x1ed5;i ra ti&#x1ec1;n m&#x1eb7;t .&#xa;- Th&#x1ee9; 2 : Kh&#xf4;ng khuy&#x1ebf;n kh&#xed;ch c&#xe1;c tr&#x1b0;&#x1edd;ng h&#x1ee3;p cheat hack &#x111;&#x1ec3; ch&#x1a1;i .&#xa;- Th&#x1ee9; 3 : Th&#xf4;ng tin ng&#x1b0;&#x1edd;i d&#xf9;ng nh&#x1ead;p v&#xe0;o s&#x1ebd; kh&#xf4;ng &#x111;&#x1b0;&#x1ee3;c ti&#x1ebf;t l&#x1ed9; ra ngo&#xe0;i n&#xea;n ng&#x1b0;&#x1edd;i d&#xf9;ng y&#xea;n t&#xe2;m .&#xa;-Th&#x1ee9; 4 :  Game n&#xe0;y t&#x1ea1;o ra v&#x1edb;i m&#x1ee5;c &#x111;&#xed;ch &#x111;&#x1ec3; x&#x1ea3; stress tuy nhi&#xea;n c&#xf3; nh&#x1b0;ng c&#xe2;u h&#x1ecf;i khi&#x1ebf;n b&#x1ea1;n kh&#xf3; ch&#x1ecb;u ho&#x1eb7;c ti&#xea;u c&#x1ef1;c th&#xec; b&#xec;nh t&#x1ec9;nh nh&#xe9; .&#xa;+ V&#x1ec1; ph&#x1ea7;n c&#xe1;ch th&#x1ee9;c ch&#x1a1;i : &#xa; -- C&#x1ee9; m&#x1ed7;i c&#xe2;u b&#x1ea1;n tr&#x1ea3; l&#x1edd;i &#x111;&#xfa;ng th&#xec; s&#x1ed1; ti&#x1ec1;n s&#x1ebd; t&#x103;ng theo t&#x1eeb;ng b&#x1ead;c .&#xa; -- N&#x1ebf;u b&#x1ea1;n tr&#x1ea3; l&#x1edd;i sai &#x1edf; b&#x1ea5;t k&#xec; c&#xe2;u n&#xe0;o th&#xec; b&#x1ea1;n s&#x1ebd; tr&#x1edf; v&#x1ec1; v&#x1edb;i c&#xe2;u &#x111;&#x1ea7;u ti&#xea;n v&#xe0; b&#x1eaf;t &#x111;&#x1ea7;u chinh ph&#x1ee5;c l&#x1ea1;i cho &#x111;&#x1ebf;n khi h&#x1ebf;t gi&#x1edd; .&#xa; -- N&#x1ebf;u b&#x1ea1;n &#x111;&#xfa;ng c&#xe2;u th&#x1ee9; 10 th&#xec; xin ch&#xfa;c m&#x1eeb;ng b&#x1ea1;n ch&#xed;nh l&#xe0; ng&#x1b0;&#x1edd;i m&#xe0; ch&#xfa;ng t&#xf4;i &#x111;ang truy t&#xec;m . B&#x1ea1;n ch&#xed;nh l&#xe0; Th&#xe1;nh Tia Ch&#x1edb;p t&#x1ea1;i game ch&#xfa;ng t&#xf4;i . Xin ch&#xfa;c m&#x1eeb;ng."/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="310" y="30" width="130" height="90"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnThoat">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="V&#x1ec1; Trang Ch&#x1ee7;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnThoatActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="560" y="660" width="180" height="70"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/img/background.PNG"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1330" height="820"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
